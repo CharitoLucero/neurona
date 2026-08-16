@@ -1,0 +1,18 @@
+# Entorno virtual de Python
+.venv/
+
+# Cache de bytecode de Python
+__pycache__/
+*.pyc
+
+# Cache e instalaciones temporales de pip
+.pip-cache/
+.pip-tmp/
+
+# Logs de diagnostico / pruebas manuales (pip install, smoke tests, entrenamientos, etc.)
+.pip-*.log
+.smoke-test*.log
+.diag*.log
+.du-local.log
+.lfs-pull.log
+.*.log

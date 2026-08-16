@@ -1,0 +1,13 @@
+# Dependencias del proyecto: captura/entrenamiento/prediccion + API.
+# Version de Python recomendada: 3.10 u 11 (mediapipe todavia no soporta todas las
+# versiones nuevas de Python en todas las plataformas).
+
+tensorflow>=2.15,<3.0
+numpy>=1.24,<2.0
+opencv-python>=4.8
+mediapipe>=0.10,<1.0  # mediapipe 1.x elimino la API "solutions" (mp.solutions.hands) que usa este proyecto
+
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
